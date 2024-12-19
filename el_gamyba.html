@@ -1,0 +1,535 @@
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <style type="text/css">
+        b
+        ol {
+            margin: 0;
+            padding: 0;
+        }
+
+        table td,
+        table th {
+            padding: 0;
+        }
+
+        .c1 {
+            border-right-style: solid;
+            padding: 0pt 2pt 0pt 2pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: middle;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 150.5pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c2 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 150.5pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c11 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+            height: 11pt
+        }
+
+        .c0 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c4 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: center;
+            height: 11pt
+        }
+
+        .c6 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            text-align: center
+        }
+
+        .c5 {
+            padding: 30px;
+            /* padding-top: 0pt; */
+            /* padding-bottom: 0pt; */
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c10 {
+            border-spacing: 0;
+            border-collapse: collapse;
+            background-color: white;
+            margin-right: auto
+            
+        }
+
+        .c8 {
+            background-color: rgba(230, 240, 118, 0.956);
+            /* max-width: 451.4pt; */
+            /* padding: 72pt 72pt 72pt 72pt */
+        }
+
+        .c9 {
+            background-color: #99ccff
+        }
+
+        .c7 {
+            height: 0pt
+        }
+
+        .c3 {
+            font-size: 10pt
+        }
+
+        .title {
+            padding-top: 0pt;
+            color: #000000;
+            font-size: 26pt;
+            padding-bottom: 3pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 0pt;
+            color: #666666;
+            font-size: 15pt;
+            padding-bottom: 16pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        h1 {
+            padding-top: 20pt;
+            color: #000000;
+            font-size: 20pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 18pt;
+            color: #000000;
+            font-size: 16pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 16pt;
+            color: #434343;
+            font-size: 14pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 14pt;
+            color: #666666;
+            font-size: 12pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+        .logo {
+         width: 100px;
+        height: auto;
+        }
+        .flex-container {
+        display: flex;
+         /* align-content: flex-start; */
+        justify-content: center;
+        align-items: center;
+        }
+
+        .flex-item {
+        margin-left: 25px;
+        text-align: center;
+        flex-grow: 0;
+        /* flex-shrink: 0; */
+        }
+        /* form > div label {
+        min-width: 100px;
+        display: flex;
+        gap: 20px;    
+        flex-direction: row;
+        } */
+        /* form>div label > * {
+        flex: 1;
+        } */
+        .navigacijos_laukas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height: 100vh; */
+        /* background-color: coral; */
+
+        }
+        .navigacija {
+        /* background-color: lightblue; */
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+        }
+        header {
+            background-color: rgb(0, 255, 106);
+            padding-top: 10px;
+        }
+            
+        * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        }
+        .navigacija-pagrindinis {
+        background-color: rgba(230, 240, 118, 0.956);
+        padding: 10px;
+        }
+        
+    </style>
+</head>
+
+<!-- <body class="c8 doc-content"> -->
+<body class="c8">
+    <header>
+        <div class="flex-container">
+          <div class="flex-item"><img src="/pictures/logo.png" alt="Blog" class="logo" /></div>
+          <div class="flex-item">
+            <h1> Saulė šviečia visiems</h1>
+          </div>
+          <div class="flex-item"></div>
+          <div class="flex-item"></div>
+        </div>
+        <nav>
+          <div class="navigacijos_laukas">
+            <div class="navigacija"><a href="saules_elektrines.html">Saulės elektrinių statyba</a></div>
+            <div class="navigacija"><a href="el_gamyba.html">Saulės elektrinių elektros gamyba</a></div>
+            <div class="navigacija"><a href="kontaktai.html">Kontaktai</a></div>
+    
+          </div>
+        </nav>
+        </div>
+      </header>
+    <nav class="navigacija-pagrindinis">
+        <ul>
+            <ol><a href="index.html">Pagrindinis</a></ol>
+        </ul>
+    </nav>
+            <!-- <p class="c5"><span
+                style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 186.00px; height: 186.67px;"><img
+                alt="" src="images/image1.png"
+                style="width: 186.00px; height: 186.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="">
+                </span>
+            </p> -->
+    <table class="c10">
+        <tr class="c7">
+            <td class="c1 c9" colspan="1" rowspan="1">
+                <p class="c6"><span class="c3">Metai M&#279;nuo</span></p>
+            </td>
+            <td class="c1 c9" colspan="1" rowspan="1">
+                <p class="c6"><span class="c3">PV(kWh)</span></p>
+            </td>
+            <td class="c1 c9" colspan="1" rowspan="1">
+                <p class="c6"><span class="c3">ESO duomenys</span></p>
+            </td>
+	    <td class="c1 c9" colspan="1" rowspan="1">
+                <p class="c6"><span class="c3">Sukaupta energijos -32%</span></p>
+            </td>
+        </tr>
+        <tr class="c7">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">2024-06</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+            <td class="c2" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+	    <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>	
+        </tr>
+        <tr class="c7">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">2024-07</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">1157.9</span></p>
+            </td>
+            <td class="c2" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">736.44</span></p>
+            </td>
+	    <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">684.44</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">Užsakomas -32%</span></p>
+            </td>
+        </tr>
+        <tr class="c7">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">2024-08</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">1419.2</span></p>
+            </td>
+            <td class="c2" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">1340</span></p>
+            </td>
+	    <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">1538.64</span></p>
+            </td>	
+        </tr>
+        </tr>
+        <tr class="c7">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">2024-09</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">1288.3</span></p>
+            </td>
+            <td class="c2" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">1207</span></p>
+            </td>
+	    <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">2286.4</span></p>
+            </td>
+        </tr>
+        <tr class="c7">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">2024-10</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">713.8</span></p>
+            </td>
+            <td class="c2" colspan="1" rowspan="1">
+                <p class="c4"><span class="c0">666</span></p>
+            </td>
+	    <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">2645.28</span></p>
+            </td>
+        </tr>
+        <tr class="c7">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">2024-11</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">141.1</span></p>
+            </td>
+            <td class="c2" colspan="1" rowspan="1">
+                <p class="c4"><span class="c0"></span></p>
+            </td>
+	    <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+        </tr>
+        <tr class="c7">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">2024-12</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+            <td class="c2" colspan="1" rowspan="1">
+                <p class="c4"><span class="c0"></span></p>
+            </td>
+	    <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+        </tr>
+        <tr class="c7">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">2025-01</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+            <td class="c2" colspan="1" rowspan="1">
+                <p class="c4"><span class="c0"></span></p>
+            </td>
+	    <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+        </tr>
+        <tr class="c7">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">2025-02</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+            <td class="c2" colspan="1" rowspan="1">
+                <p class="c4"><span class="c0"></span></p>
+            </td>
+	    <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+        </tr>
+        <tr class="c7">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">2025-03</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+            <td class="c2" colspan="1" rowspan="1">
+                <p class="c4"><span class="c0"></span></p>
+            </td>
+	    <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+        </tr>
+        <tr class="c7">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">2025-04</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+            <td class="c2" colspan="1" rowspan="1">
+                <p class="c4"><span class="c0"></span></p>
+            </td>
+	    <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+        </tr>
+        <tr class="c7">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">2025-05</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+            <td class="c2" colspan="1" rowspan="1">
+                <p class="c4"><span class="c0"></span></p>
+            </td>
+	    <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+        </tr>
+        <tr class="c7">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">Viso per metus</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+            <td class="c2" colspan="1" rowspan="1">
+                <p class="c4"><span class="c0"></span></p>
+            </td>
+	    <td class="c1" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">0</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c11"><span class="c0"></span></p>
+</body>
+
+</html>
